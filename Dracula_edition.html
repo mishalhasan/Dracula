@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+  img.icon{
+    position: absolute;
+    left: 45%;
+    bottom: 6%;
+    z-index: 1;
+    width: 8%;
+    height: 15%;
+
+  }
+  img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  img.dracula{
+
+    position: absolute;
+    right: 6% ;
+    top: 4%;
+    z-index: 1;
+    width: 25%;
+    height: 25%;
+
+  }
+
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
+</style>
+</head>
+<body>
+
+
+
+<img class="bg" src="pg_bg.png">
+<a href="index.html"><img class="icon" src="arrow_icon.png"></a>
+<img class="dracula" src="Dracula_title.png">
+
+
+
+</body>
+</html>
