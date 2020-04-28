@@ -1,0 +1,80 @@
+body{
+    background-color: #e8e8e0;
+  }
+
+.homePg{
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.menuu {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  border-bottom: 10px solid black;
+
+}
+
+.menuu > div {
+  font-size: 40px;
+  color: #b21616;
+  font-family: "Impact";
+}
+
+.men1 {
+  margin-right: 2%; /* A fixed width as the default */
+  padding-left: 4%;
+
+}
+
+.logo {
+  flex-grow:0.75;
+  text-align: center; /* Set the middle element to grow and stretch */
+}
+
+.men2 {
+  margin-left: 2%;
+  padding-right: 3%;
+}
+
+a{
+
+text-decoration: none;
+}
+
+a:link{
+color: #b21616;
+}
+
+a:visited{
+  color: #be0909;
+}
+
+a:hover{
+  color: #984848;
+}
+
+.typography{
+
+  max-width: 38%;
+  height: auto;
+  padding-top: 3.8%;
+  padding-left: 2%;
+}
+
+p{
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  padding-left: 3%;
+  padding-right: 1.5%;
+  color: #b21616;
+}
+
+.contentt{
+
+  padding-top: 3%;
+}
